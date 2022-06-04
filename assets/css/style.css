@@ -1,0 +1,56 @@
+body{
+	margin: 0px;
+}
+
+.navbar{
+	background: pink;
+}
+
+/* top bottom a 0px dane bame auto hoilo.margin:0px auto;  padding 0px deyar karone mila gase border er sathe*/
+.navbar ul{
+	width: 60%;
+	margin: 0px auto;
+	padding: 0px;
+
+}
+
+.navbar ul li {
+	list-style: none;
+	display: inline-block;
+}
+
+.navbar ul li a{
+	color: #fff;
+	text-decoration: none;
+	margin: 0px 10px;
+	padding: 10px;
+	background: green;
+	display: inline-block;
+}
+
+
+.navbar ul li a.dropdown{
+	position: relative;
+
+}
+
+/*dropdown start*/
+.navbar ul li ul{
+	position: absolute;
+	margin: 0px;
+	padding: 0px;
+	display: none;
+}
+.navbar ul li:hover ul{
+	display: block;
+} 
+
+.navbar ul li ul li{
+	display: block;
+}
+.navbar ul li ul li a{
+	background: #4d52d4;
+	display: block;/*inline block kora holo margin padding thik moto kaj korer jonno*/
+	width: 150px;
+	margin: 5px 0px;
+}
